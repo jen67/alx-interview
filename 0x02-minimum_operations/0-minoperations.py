@@ -7,7 +7,7 @@ def minOperations(n):
     
     operations = 0
     factor = 2
-    
+
     # Perform prime factorization
     while n > 1:
         while n % factor == 0:
