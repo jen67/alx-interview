@@ -2,13 +2,15 @@
 """Minimum Operations"""
 
 def minOperations(n: int) -> int:
-    """Calculate the minimum number of operations needed to get n 'H' characters.
+    """Calculate the minimum number of operations needed to
+    get n 'H' characters.
 
     Args:
         n (int): The target number of 'H' characters.
 
     Returns:
-        int: Minimum number of operations required. Returns 0 if n is not achievable.
+        int: Minimum number of operations required. Returns 0
+        if n is not achievable.
     """
     
     if n <= 1:
@@ -23,5 +25,4 @@ def minOperations(n: int) -> int:
             operations += factor
             n //= factor
         factor += 1
-        
     return operations
