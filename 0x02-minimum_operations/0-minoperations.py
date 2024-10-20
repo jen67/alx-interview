@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""
+Task 0
+"""
+
 def minOperations(n):
     if n <= 1:
         return 0
