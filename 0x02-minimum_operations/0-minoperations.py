@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Minimum Operations"""
 
+
 def minOperations(n: int) -> int:
     """Calculate the minimum number of operations needed to
     get n 'H' characters.
@@ -12,7 +13,6 @@ def minOperations(n: int) -> int:
         int: Minimum number of operations required. Returns 0
         if n is not achievable.
     """
-    
     if n <= 1:
         return 0
         operations = 0
