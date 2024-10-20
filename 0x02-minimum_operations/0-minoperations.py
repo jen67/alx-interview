@@ -15,10 +15,8 @@ def minOperations(n: int) -> int:
     
     if n <= 1:
         return 0
-    
-    operations = 0
+        operations = 0
     factor = 2
-    
     # Perform prime factorization
     while n > 1:
         while n % factor == 0:
